@@ -131,10 +131,10 @@ function spawnClouds() {
     cloud.y = Math.round(random(80,120));
     cloud.addImage(cloudImage);
     cloud.scale = 0.5;
-    cloud.velocityX = -(6 + 3*score/100);
+    cloud.velocityX = -(3 + 3*score/100);
     
      //assign lifetime to the variable
-    cloud.lifetime = 350;
+    cloud.lifetime = 300;
     
     //adjust the depth
     cloud.depth = trex.depth;
